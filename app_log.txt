@@ -1,0 +1,123 @@
+2024-09-11 20:49:23.901717 - Server function started
+2024-09-11 20:49:23.905762 - Input module server called
+2024-09-11 20:49:23.923218 - Server function setup completed
+2024-09-11 20:49:23.943562 - Entering renderPlot
+2024-09-11 20:49:23.944675 - Calling get_data
+2024-09-11 20:49:24.152899 - Data retrieved, row count: 3
+2024-09-11 20:49:24.153625 - No valid data for plotting
+2024-09-11 20:49:29.69039 - Submit button clicked
+2024-09-11 20:49:29.691129 - Entering tryCatch block
+2024-09-11 20:49:29.69198 - input_data() is available
+2024-09-11 20:49:29.692719 - Inputs received - Weight: 70 Sleep: 53 Hunger: 7
+2024-09-11 20:49:29.693461 - Input types - Weight: integer Sleep: integer Hunger: integer
+2024-09-11 20:49:29.694128 - Calling validate_inputs
+2024-09-11 20:49:29.695032 - Validation result: valid
+2024-09-11 20:49:29.695546 - Calling insert_data
+2024-09-11 20:49:29.870909 - Error in observeEvent: invalid argument type
+2024-09-11 20:53:49.871488 - Server function started
+2024-09-11 20:53:49.875912 - Input module server called
+2024-09-11 20:53:49.895505 - Server function setup completed
+2024-09-11 20:53:49.907549 - Entering renderPlot
+2024-09-11 20:53:49.908252 - Calling get_data
+2024-09-11 20:53:50.282405 - Data retrieved, row count: 3
+2024-09-11 20:53:50.283308 - Column names: id, Date, weight, sleep, hunger
+2024-09-11 20:53:50.283883 - Data frame is not null and has rows
+2024-09-11 20:53:50.284524 - Missing required columns
+2024-09-11 20:53:53.514732 - Submit button clicked
+2024-09-11 20:53:53.515526 - Entering tryCatch block
+2024-09-11 20:53:53.51647 - input_data() is available
+2024-09-11 20:53:53.517159 - Inputs received - Weight: 70 Sleep: 50 Hunger: 5
+2024-09-11 20:53:53.51776 - Input types - Weight: integer Sleep: integer Hunger: integer
+2024-09-11 20:53:53.5209 - Calling validate_inputs
+2024-09-11 20:53:53.521641 - Validation result: valid
+2024-09-11 20:53:53.522218 - Calling insert_data
+2024-09-11 20:53:53.523089 - Error in observeEvent: could not find function "log_message"
+2024-09-11 20:59:03.887 - Server function started 
+2024-09-11 20:59:03.893 - Input module server called 
+2024-09-11 20:59:03.913 - Server function setup completed 
+2024-09-11 20:59:03.930 - Entering renderPlot 
+2024-09-11 20:59:03.931 - Calling get_data 
+2024-09-11 20:59:04.458 - Data retrieved, row count: 3 
+2024-09-11 20:59:04.460 - Column names: id, Date, weight, sleep, hunger 
+2024-09-11 20:59:04.461 - Data frame is not null and has rows 
+2024-09-11 20:59:04.463 - All required columns are present 
+2024-09-11 20:59:04.465 - Date column converted to POSIXct 
+2024-09-11 20:59:04.516 - Plot rendered successfully 
+2024-09-11 20:59:11.403 - Submit button clicked 
+2024-09-11 20:59:11.407 - Entering tryCatch block 
+2024-09-11 20:59:11.409 - input_data() is available 
+2024-09-11 20:59:11.410 - Inputs received - Weight: 70 Sleep: 50 Hunger: 5 
+2024-09-11 20:59:11.410 - Input types - Weight: integer Sleep: integer Hunger: integer 
+2024-09-11 20:59:11.411 - Calling validate_inputs 
+2024-09-11 20:59:11.412 - Validation result: valid 
+2024-09-11 20:59:11.413 - Calling insert_data 
+2024-09-11 20:59:11.414 - Error in observeEvent: could not find function "log_message" 
+2024-09-11 21:12:14.083 - Server function started 
+2024-09-11 21:12:14.088 - Input module server called 
+2024-09-11 21:12:14.106 - Server function setup completed 
+2024-09-11 21:12:14.123 - Entering renderPlot 
+2024-09-11 21:12:14.125 - Calling get_data 
+2024-09-11 21:12:14.537 - Data retrieved, row count: 3 
+2024-09-11 21:12:14.538 - Column names: id, Date, weight, sleep, hunger 
+2024-09-11 21:12:14.538 - Data frame is not null and has rows 
+2024-09-11 21:12:14.539 - All required columns are present 
+2024-09-11 21:12:14.541 - Date column converted to POSIXct 
+2024-09-11 21:12:14.569 - Plot rendered successfully 
+2024-09-11 21:12:18.544 - Submit button clicked 
+2024-09-11 21:12:18.545 - Entering tryCatch block 
+2024-09-11 21:12:18.546 - input_data() is available 
+2024-09-11 21:12:18.548 - Inputs received - Weight: 70 Sleep: 50 Hunger: 5 
+2024-09-11 21:12:18.550 - Input types - Weight: integer Sleep: integer Hunger: integer 
+2024-09-11 21:12:18.551 - Calling validate_inputs 
+2024-09-11 21:12:18.552 - Validation result: valid 
+2024-09-11 21:12:18.553 - Calling insert_data 
+2024-09-11 21:12:18.554 - Error in observeEvent: could not find function "log_message" 
+2024-09-12 06:42:58.889 - Server function started 
+2024-09-12 06:42:58.893 - Input module server called 
+2024-09-12 06:42:58.910 - Server function setup completed 
+2024-09-12 06:42:58.925 - Entering renderPlot 
+2024-09-12 06:42:58.926 - Calling get_data 
+2024-09-12 06:42:59.739 - Data retrieved, row count: 3 
+2024-09-12 06:42:59.741 - Column names: id, Date, weight, sleep, hunger 
+2024-09-12 06:42:59.742 - Data frame is not null and has rows 
+2024-09-12 06:42:59.743 - All required columns are present 
+2024-09-12 06:42:59.744 - Date column converted to POSIXct 
+2024-09-12 06:42:59.773 - Plot rendered successfully 
+2024-09-12 06:43:11.754 - Submit button clicked 
+2024-09-12 06:43:11.756 - Entering tryCatch block 
+2024-09-12 06:43:11.758 - input_data() is available 
+2024-09-12 06:43:11.759 - Inputs received - Weight: 70 Sleep: 50 Hunger: 5 
+2024-09-12 06:43:11.760 - Input types - Weight: integer Sleep: integer Hunger: integer 
+2024-09-12 06:43:11.760 - Calling validate_inputs 
+2024-09-12 06:43:11.761 - Validation result: valid 
+2024-09-12 06:43:11.762 - Calling insert_data 
+2024-09-12 06:43:11.762 - Error in observeEvent: could not find function "log_message" 
+2024-09-12 06:45:18.734 - Server function started 
+2024-09-12 06:45:18.740 - Input module server called 
+2024-09-12 06:45:18.760 - Server function setup completed 
+2024-09-12 06:45:18.777 - Entering renderPlot 
+2024-09-12 06:45:18.778 - Calling get_data 
+2024-09-12 06:45:19.278 - Data retrieved, row count: 3 
+2024-09-12 06:45:19.279 - Column names: id, Date, weight, sleep, hunger 
+2024-09-12 06:45:19.280 - Data frame is not null and has rows 
+2024-09-12 06:45:19.281 - All required columns are present 
+2024-09-12 06:45:19.282 - Date column converted to POSIXct 
+2024-09-12 06:45:19.315 - Plot rendered successfully 
+2024-09-12 06:45:21.038 - Submit button clicked 
+2024-09-12 06:45:21.040 - Entering tryCatch block 
+2024-09-12 06:45:21.042 - input_data() is available 
+2024-09-12 06:45:21.043 - Inputs received - Weight: 70 Sleep: 50 Hunger: 5 
+2024-09-12 06:45:21.043 - Input types - Weight: integer Sleep: integer Hunger: integer 
+2024-09-12 06:45:21.044 - Calling validate_inputs 
+2024-09-12 06:45:21.045 - Validation result: valid 
+2024-09-12 06:45:21.046 - Calling insert_data 
+2024-09-12 06:45:21.047 - Entering insert_data function 
+2024-09-12 06:45:21.049 - Inputs - Date: 2024-09-12 06:45:21.049218 Weight: 70 Sleep: 50 Hunger: 5 
+2024-09-12 06:45:21.051 - URL: https://kpycptsvbzonsrvlpkni.supabase.co/rest/v1/daily_tracker 
+2024-09-12 06:45:21.052 - Headers created 
+2024-09-12 06:45:21.054 - Body created: {"Date":"2024-09-12 06:45:21.049218","weight":70,"sleep":50,"hunger":5} 
+2024-09-12 06:45:21.055 - Sending POST request 
+2024-09-12 06:45:21.229 - POST request status: 201 
+2024-09-12 06:45:21.230 - Data inserted successfully 
+2024-09-12 06:45:21.231 - Insert result: success 
+2024-09-12 06:45:21.234 - Data inserted successfully 

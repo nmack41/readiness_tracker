@@ -20,3 +20,9 @@
 2024-09-28 09:41:26.716 - All required columns are present 
 2024-09-28 09:41:26.716 - Date column converted to POSIXct 
 2024-09-28 09:41:26.736 - Plot rendered successfully 
+2024-10-19 12:49:13.839 - Server function started 
+2024-10-19 12:49:13.850 - Input module server called 
+2024-10-19 12:49:13.882 - Server function setup completed 
+2024-10-19 12:49:13.947 - Entering renderPlot 
+2024-10-19 12:49:13.948 - Calling get_data 
+2024-10-19 12:49:14.057 - Error in renderPlot: Could not resolve host: kpycptsvbzonsrvlpkni.supabase.co 

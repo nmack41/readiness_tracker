@@ -26,3 +26,9 @@
 2024-10-19 12:49:13.947 - Entering renderPlot 
 2024-10-19 12:49:13.948 - Calling get_data 
 2024-10-19 12:49:14.057 - Error in renderPlot: Could not resolve host: kpycptsvbzonsrvlpkni.supabase.co 
+2024-10-19 13:42:10.664 - Server function setup completed 
+2024-10-19 13:42:36.477 - Server function started 
+2024-10-19 13:42:36.490 - Input module server called 
+2024-10-19 13:42:36.543 - Entering renderPlot 
+2024-10-19 13:42:36.544 - Calling get_data 
+2024-10-19 13:42:36.546 - Error in renderPlot: object 'SUPABASE_URL' not found 

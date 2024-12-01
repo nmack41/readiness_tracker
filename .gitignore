@@ -47,3 +47,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# renv library directory
+renv/library/
+
+# renv cache directory
+renv/cache/

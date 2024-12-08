@@ -1,5 +1,14 @@
 library(shiny)
 library(ggplot2)
+library(dotenv)
+
+# Load environment variables
+load_dot_env()
+
+# Get environment variables
+SUPABASE_URL <- Sys.getenv("SUPABASE_URL")
+SUPABASE_API_KEY <- Sys.getenv("SUPABASE_API_KEY")
+TABLE_NAME <- Sys.getenv("TABLE_NAME")
 
 ui <- fluidPage(
   titlePanel("Readiness Tracker"),

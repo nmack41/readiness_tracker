@@ -53,3 +53,6 @@ renv/library/
 
 # renv cache directory
 renv/cache/
+
+# env
+.env

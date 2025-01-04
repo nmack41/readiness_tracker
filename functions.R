@@ -1,39 +1,35 @@
 # Load necessary libraries
 library(dotenv)
-library(httr)
-library(jsonlite) 
+library(readr)
 
 # Load environment variables
 load_dot_env()
 
-# If tracking.csv does not exist then create the file. Ensure the file has date, weight, sleep, and motivation_to_train as the column headers
-initialize_tracking_file <- function() {
+# Function to initialize the tracking.csv file
+create_tracking_file <- function() {
     file_path <- "tracking.csv"
     
     if (!file.exists(file_path)) {
         tracking_df <- data.frame(
-            date = character(),
+            date = as.Date(character()),
             weight = numeric(),
             sleep = numeric(),
             motivation_to_train = numeric(),
             stringsAsFactors = FALSE
         )
-        write.csv(tracking_df, file = file_path, row.names = FALSE)
+        write_csv(tracking_df, file_path)
     }
 }
 
-# Take variables date, weight, sleep, and motivation and add that entry to the csv
+
+# Function to add a new entry to the CSV file
 add_entry <- function(date, weight, sleep, motivation) {
     new_entry <- data.frame(
         date = as.character(date),
         weight = as.numeric(weight),
         sleep = as.numeric(sleep),
-        motivation_to_train = as.numeric(motivation),
-        stringsAsFactors = FALSE
+        motivation_to_train = as.numeric(motivation)
     )
     
-    write.table(new_entry, file = "tracking.csv", 
-                sep = ",", append = TRUE, 
-                row.names = FALSE,
-                col.names = !file.exists("tracking.csv"))
+    write_csv(new_entry, "tracking.csv", append = TRUE)
 }
